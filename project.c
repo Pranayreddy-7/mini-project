@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+void login(void);
+void reg(void);
 int note();
 int password();
 void addrecord();
@@ -24,8 +26,6 @@ char nama[30],pass[30];
 }
 w[100];
 int n;
-void login(void);
-void reg(void);
 int main(void)
 {
 menu_main:
